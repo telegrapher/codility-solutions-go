@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/telegrapher/codility-solutions-go/lesson01/binarygap"
+	. "github.com/telegrapher/codility-solutions-go/lesson01/binarygap"
 )
 
 var binaryGapTests = []struct {
