@@ -1,10 +1,9 @@
 package oddoccurrence_test
 
 import (
-	. "../oddoccurrence"
 	"fmt"
+	. "github.com/telegrapher/codility-solutions-go/lesson02/oddoccurrence"
 	"testing"
-	//. "github.com/telegrapher/codility-solutions-go/lesson02/oddoccurrence"
 )
 
 var oddOccurrenceTests = []struct {
