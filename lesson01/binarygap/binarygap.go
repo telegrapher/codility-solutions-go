@@ -1,6 +1,6 @@
 package binarygap
 
-import "fmt"
+//import "fmt"
 
 func findBiggestInSlice(slice []int) int {
 	biggestFound := 0
@@ -41,12 +41,12 @@ func Solution(N int) int {
 	//Create a slice of 32 bytes length and capacity
 	binaryForm := make([]int, 32, 32)
 	for i := 0; i < 31; i++ {
-		fmt.Printf("Processing for %d\n", N)
+		//fmt.Printf("Processing for %d\n", N)
 		binaryForm[i] = N % 2
 		N = N / 2
 	}
 	binaryForm[31] = 0
-	fmt.Printf("The array is: \n %v\n", binaryForm)
+	//fmt.Printf("The array is: \n %v\n", binaryForm)
 
 	return biggestGap(binaryForm)
 }
