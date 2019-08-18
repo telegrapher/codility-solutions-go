@@ -2,7 +2,7 @@ package frogjmp_test
 
 import "testing"
 import "fmt"
-import . "../frogjmp"
+import . "github.com/telegrapher/codility-solutions-go/lesson03/frogjmp"
 
 var frogjmpTests = []struct {
 	X, Y, Z, result int
